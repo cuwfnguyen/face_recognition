@@ -1,1 +1,1 @@
-# face recognize using mtcnn, facenet and flask
+# face recognize using dlib, facenet and flask
