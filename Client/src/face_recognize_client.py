@@ -134,9 +134,9 @@ if __name__ == "__main__":
     vr = VideoWFR(sender)
 
     # selection image in directory
-    path_img = "E:/20211/DATK/1.1Linhduong/face-recognize-with-flask-master/Client/images"
-    files = os.listdir(path_img)
-    for url_img in files:
-        vr.process_many_image(url_img)
+    # path_img = "E:/20211/DATK/1.1Linhduong/face-recognize-with-flask-master/Client/images"
+    # files = os.listdir(path_img)
+    # for url_img in files:
+    #     vr.process_many_image(url_img)
 
-    #vr.process_stream_video()\
+    vr.process_stream_video()
